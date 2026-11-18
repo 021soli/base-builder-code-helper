@@ -1,0 +1,21 @@
+{
+  "name": "base-builder-code-helper",
+  "version": "1.0.0",
+  "description": "Tiny zero-dependency helper to append Base Builder Code (ERC-8021) attribution to transaction calldata.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["base", "builder-code", "erc-8021", "attribution", "web3", "ethereum"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
